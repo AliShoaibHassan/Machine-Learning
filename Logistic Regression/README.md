@@ -1,1 +1,2 @@
-
+Titanic Survival Prediction System
+Developed a survival prediction system for the Titanic dataset using Logistic Regression. The system involved preprocessing and analyzing the data with Pandas and visualizing missing values, distributions, and patterns with Seaborn. Missing values in the Age column were filled based on Pclass, while the Cabin column was dropped due to excessive null values. Categorical features such as Sex and Embarked were encoded using one-hot encoding. The data was split into training and testing sets using train_test_split, and a Logistic Regression model was trained with scikit-learn. The model's performance was evaluated using a classification report and confusion matrix, showcasing its accuracy in predicting passenger survival.
